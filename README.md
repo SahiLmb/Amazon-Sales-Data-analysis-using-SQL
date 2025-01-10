@@ -114,9 +114,9 @@ CREATE TABLE inventory
 
 ---
 
-### Solving Business Problems
+## Solving Business Problems
 
-## Solutions Implemented:
+### Solutions Implemented:
 
 - Restock Prediction: By forecasting product demand based on past sales, I optimized restocking cycles, minimizing stockouts.
 - Product Performance: Identified high-return products and optimized their sales strategies, such as product bundling and pricing adjustments.
