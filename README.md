@@ -118,7 +118,7 @@ CREATE TABLE inventory
 
 ### Solutions Implemented:
 
-- Restock Prediction: By forecasting product demand based on past sales, I optimized restocking cycles, minimizing stockouts.
-- Product Performance: Identified high-return products and optimized their sales strategies, such as product bundling and pricing adjustments.
-- Shipping Optimization: Analyzed shipping times and delivery providers to recommend better logistics strategies and improve customer satisfaction.
-- Customer Segmentation: Conducted RFM analysis to target marketing efforts towards "At-Risk" customers, improving retention and loyalty.
+- #### Restock Prediction: By forecasting product demand based on past sales, I optimized restocking cycles, minimizing stockouts.
+- #### Product Performance: Identified high-return products and optimized their sales strategies, such as product bundling and pricing adjustments.
+- #### Shipping Optimization: Analyzed shipping times and delivery providers to recommend better logistics strategies and improve customer satisfaction.
+- #### Customer Segmentation: Conducted RFM analysis to target marketing efforts towards "At-Risk" customers, improving retention and loyalty.
