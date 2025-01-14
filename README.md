@@ -165,13 +165,13 @@ Key business problems identified:
 Query the top 10 products by total sales value.
 Challenge: Include product name, total quantity sold, and total sales value.
 
+```sql
 ---join oi - o - pr
 -- prod id
 -- sum of quantity * price per unit
 -- grp by prod id
 -- top 10 prod
 
-```sql
 SELECT * FROM order_items
 
 --- Creating new column
