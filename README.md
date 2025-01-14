@@ -231,6 +231,8 @@ ORDER BY 3 DESC
 Compute the average order value for each customer.
 Challenge: Include only customers with more than 5 orders.
 
+- AOV stands for average order value, which is a metric that measures the average amount of money a customer spends per order on an ecommerce website or app.
+
 ```sql
 -- o -- oi -- cust
 -- group by cust id and cust name sum(total_sale)/no orders
