@@ -161,7 +161,7 @@ Key business problems identified:
 
 ## **Solving Business Problems**
 
-1. Top Selling Products
+- 1. Top Selling Products
 Query the top 10 products by total sales value.
 Challenge: Include product name, total quantity sold, and total sales value.
 
