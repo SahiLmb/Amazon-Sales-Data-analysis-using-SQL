@@ -161,7 +161,6 @@ Key business problems identified:
 
 ## **Solving Business Problems**
 
-```sql
 /*
 1. Top Selling Products
 Query the top 10 products by total sales value.
@@ -174,6 +173,7 @@ Challenge: Include product name, total quantity sold, and total sales value.
 -- grp by prod id
 -- top 10 prod
 
+```sql
 SELECT * FROM order_items
 
 --- Creating new column
