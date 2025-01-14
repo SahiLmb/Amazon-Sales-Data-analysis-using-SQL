@@ -152,11 +152,54 @@ Key business problems identified:
 
 ---
 
-## Solving Business Problems
-
 ### Solutions Implemented:
 
 - #### Restock Prediction: By forecasting product demand based on past sales, I optimized restocking cycles, minimizing stockouts.
 - #### Product Performance: Identified high-return products and optimized their sales strategies, such as product bundling and pricing adjustments.
 - #### Shipping Optimization: Analyzed shipping times and delivery providers to recommend better logistics strategies and improve customer satisfaction.
 - #### Customer Segmentation: Conducted RFM analysis to target marketing efforts towards "At-Risk" customers, improving retention and loyalty.
+
+## **Solving Business Problems**
+
+```sql
+/*
+1. Top Selling Products
+Query the top 10 products by total sales value.
+Challenge: Include product name, total quantity sold, and total sales value.
+*/
+
+---join oi - o - pr
+-- prod id
+-- sum of quantity * price per unit
+-- grp by prod id
+-- top 10 prod
+
+SELECT * FROM order_items
+
+--- Creating new column
+ALTER TABLE order_items
+ADD COLUMN total_sale FLOAT;
+
+
+-- Updating price qty * price per unit
+UPDATE order_items
+SET total_sale = quantity * price_per_unit;
+SELECT * FROM order_items
+ORDER BY quantity DESC
+
+SELECT 
+	oi.product_id,
+	p.product_name,
+	SUM(oi.total_sale) as total_sale,
+	COUNT(o.order_id) as total_orders
+FROM orders as o
+JOIN
+order_items as oi
+ON oi.order_id = o.order_id
+JOIN 
+products as p
+ON p.product_id = oi.product_id
+GROUP BY 1,2
+ORDER BY 3 DESC
+LIMIT 10
+```
