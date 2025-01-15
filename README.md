@@ -254,3 +254,35 @@ GROUP BY 1,2
 HAVING COUNT(o.order_id) > 5
 
 ```
+
+#### 4. Monthly Sales Trend
+Query monthly total sales over the past 2 years.
+Challenge: Display the sales trend, grouping by month, return current_month sale, last month sale!
+
+```sql
+
+-- last 2 years data
+-- each month sales and their prev month sales
+
+SELECT 
+	year,
+	month,
+	total_sale as current_month_sale,
+	LAG(total_sale, 1) OVER(ORDER BY year, month) as last_month_sale
+FROM ---
+(
+SELECT 
+	EXTRACT(MONTH FROM o.order_date) as month,
+	EXTRACT(YEAR FROM o.order_date) as year,
+	ROUND(
+			SUM(oi.total_sale::numeric)
+			,2) as total_sale
+FROM orders as o
+JOIN
+order_items as oi
+ON oi.order_id = o.order_id
+WHERE o.order_date >= CURRENT_DATE - INTERVAL '1 year'
+GROUP BY 1, 2
+ORDER BY year, month
+) as t1
+```
