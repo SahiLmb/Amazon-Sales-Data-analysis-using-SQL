@@ -4,15 +4,48 @@
 
 ---
 
-## **Project Overview**
+## Project Overview
+End-to-end analysis of 20,000+ sales records from an Amazon-like e-commerce platform, combining SQL data exploration with Power BI visualization.
 
-I worked on analyzing a dataset comprising over 20,000 sales records from an Amazon-like e-commerce platform. The project involved deep exploration of customer behavior, product performance, and sales trends using PostgreSQL. I solved complex SQL problems, such as revenue analysis, customer segmentation, and inventory management, showcasing my ability to derive actionable insights.
+## SQL Analysis & Database Design
+- Analyzed **20,000+ sales records** using PostgreSQL
+- Solved **20 complex business problems**:
+  - 📈 Revenue trend analysis (YoY, MoM comparisons)
+  - 👥 Customer segmentation (RFM, new vs returning)
+  - 📦 Product performance (profit margins, return rates)
+  - ⚙️ Operational metrics (shipping delays, inventory alerts)
+- Designed comprehensive **ERD diagram** to visualize database schema
 
-The project emphasized data cleaning, addressing null values, and tackling real-world business challenges through structured queries. Additionally, an ERD diagram was created to visually illustrate the database schema and the relationships between tables.
+## Power BI Implementation
+### Dashboard Architecture
+Built interactive dashboard with 5 key pages:
+1. **Executive Summary** - High-level KPIs
+2. **Product Performance** - Margins & rankings
+3. **Customer Insights** - Segmentation & CLV
+4. **Operations Hub** - Logistics & inventory
+5. **Regional Analysis** - Geographic trends
 
-An ERD diagram is included to visually represent the database schema and relationships between tables.
+### Technical Implementation
+- Developed **40+ DAX measures** mirroring SQL logic:
+  - 🕰️ Time intelligence functions
+  - 💰 Customer lifetime value
+  - 🏆 Dynamic ranking systems
+- Designed space-optimized visualizations:
+  - 🎚 Compact scorecards
+  - 🔍 Interactive matrices
+  - 📊 Mini-chart integrations
+- Implemented cross-filtering and unified navigation
+
+## Key Features
+- **Actionable insights** from raw sales data
+- **ERD-driven data model** ensuring accuracy
+- **Responsive design** for limited dashboard space
+
+
+An ERD diagram is included to visually represent the database schema and relationships between tables along with the Power BI dashboard link.
 
 ---
+![Power BI dashboard](https://github.com/SahiLmb/Amazon-Sales-Data-analysis-using-SQL)
 
 ![ERD Scratch](https://github.com/SahiLmb/Amazon-Sales-Data-analysis-using-SQL/blob/main/amazon%20erd.png)
 
