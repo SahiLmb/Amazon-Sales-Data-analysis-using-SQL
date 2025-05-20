@@ -45,7 +45,8 @@ Built interactive dashboard with 5 key pages:
 An ERD diagram is included to visually represent the database schema and relationships between tables along with the Power BI dashboard link.
 
 ---
-![Power BI dashboard](https://github.com/SahiLmb/Amazon-Sales-Data-analysis-using-SQL)
+
+[Power BI dashboard](https://github.com/SahiLmb/Amazon-Sales-Data-analysis-using-SQL/tree/main/Power%20BI%20Dashboard)
 
 ![ERD Scratch](https://github.com/SahiLmb/Amazon-Sales-Data-analysis-using-SQL/blob/main/amazon%20erd.png)
 
