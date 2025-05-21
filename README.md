@@ -16,6 +16,13 @@ End-to-end analysis of 20,000+ sales records from an Amazon-like e-commerce plat
   - ⚙️ Operational metrics (shipping delays, inventory alerts)
 - Designed comprehensive **ERD diagram** to visualize database schema
 
+## Tech Stack
+
+- Data Analysis: SQL, PgAdmin4
+- Visualization: Power BI Desktop
+- Data Transformation: DAX measures, Power Query
+- Interactive Elements: Drill-through pages, Dynamic filtering, Customized tooltips
+
 ## Power BI Implementation
 ### Dashboard Architecture
 Built interactive dashboard with 5 key pages:
