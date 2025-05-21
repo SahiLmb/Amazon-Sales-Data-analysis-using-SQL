@@ -16,6 +16,13 @@ End-to-end analysis of 20,000+ sales records from an Amazon-like e-commerce plat
   - ⚙️ Operational metrics (shipping delays, inventory alerts)
 - Designed comprehensive **ERD diagram** to visualize database schema
 
+## Tech Stack
+
+- Data Analysis: SQL, PgAdmin4
+- Visualization: Power BI Desktop
+- Data Transformation: DAX measures, Power Query
+- Interactive Elements: Drill-through pages, Dynamic filtering, Customized tooltips
+
 ## Power BI Implementation
 ### Dashboard Architecture
 Built interactive dashboard with 5 key pages:
@@ -45,7 +52,8 @@ Built interactive dashboard with 5 key pages:
 An ERD diagram is included to visually represent the database schema and relationships between tables along with the Power BI dashboard link.
 
 ---
-![Power BI dashboard](https://github.com/SahiLmb/Amazon-Sales-Data-analysis-using-SQL)
+
+[Power BI dashboard](https://github.com/SahiLmb/Amazon-Sales-Data-analysis-using-SQL/tree/main/Power%20BI%20Dashboard)
 
 ![ERD Scratch](https://github.com/SahiLmb/Amazon-Sales-Data-analysis-using-SQL/blob/main/amazon%20erd.png)
 
